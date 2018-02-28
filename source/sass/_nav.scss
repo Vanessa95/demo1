@@ -1,0 +1,24 @@
+li{
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    justify-content:space-around;
+}
+ul{
+    justify-content:space-around;
+    padding: 0px;
+    display: flex;
+}
+.fNav{
+    display: flex;
+    background-color: #C0E1FF;
+    flex-grow: 1;
+    justify-content: center;
+}
+.prova{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
