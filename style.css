@@ -7,13 +7,52 @@ html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     background-color:#E5F9FF;
-    margin: 0px;
+    margin: 0px; 
 } 
 body{
     margin: 0px;
     display: flex;
     flex-direction: column;
-    min-width: 100vh;
+    min-height: 100vh;
+}
+
+.fHeader{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+.benvenuto{
+    flex-grow: 1;
+}
+.fFooter{
+    background-color: #E5F9FF;
+    flex-grow: 1;
+}
+.fNav{
+    display: flex;
+    background-color: #C0E1FF;
+    flex-grow: 1;
+    justify-content: center;
+}
+.flexMain{
+    display: flex;
+    flex-grow: 3;
+    justify-content: center;
+}
+.flexSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #b2c5d4b5;
+    max-width: 70%;
+    border-radius: 10px 10px 10px 10px;
+    margin: 20px;
+}
+.flexFoto{
+    flex-grow: 1;
+}
+.flexArticle{
+    flex-grow: 4;
 }
 li{
     display: flex;
@@ -21,22 +60,10 @@ li{
     padding: 20px;
     justify-content:space-around;
 }
-.prova{
-    flex-grow: 1;
-    flex-direction: row;
-    display: flex;
-    justify-content:space-around;
-}
 ul{
     justify-content:space-around;
     padding: 0px;
     display: flex;
-}
-nav{
-    display: flex;
-    margin-bottom: 5%;
-    background-color: #C0E1FF;
-    justify-content:space-around;
 }
 menu{
     padding: 0px;
@@ -47,9 +74,7 @@ menu{
 }
 img{
     margin: auto;
-    display: flex;
     border-radius: 50%;
-    padding: 5px;
 }
 .prova2{
     display: flex;
@@ -58,12 +83,12 @@ img{
     margin: auto;
     box-shadow: 2px 2px 10px 1px #B0B0B0;
 }
-footer{
+/*footer{
     display: flex;
     flex-direction: column;
     background-color: #E5F9FF;
     margin-top: 10%;
-}
+} */
 input{
     margin: 6px 0px 6px 0px;
     padding: 10px;
@@ -98,11 +123,14 @@ input[type="radio"]{
 figure{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .prova{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    
 }
 .carattere{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -124,11 +152,13 @@ form{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
 }
 article{
     display: flex;
     flex-direction: column;
-    margin: 20px 100px 0px 0px;
 }
 .display{
     margin: 0px;
