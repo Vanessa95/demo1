@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sito</title>
+</head>
+
+<body onload="crea()">
+    <header class="fHeader">
+            <h3 class="benvenuto" id="saluto">
+                Benvenuto!
+            </h3>        
+    </header>
+    <nav class="fNav"> 
+        <ul>
+            <li class="prova">Home</li>
+            <li class="prova">Gallery</li>
+            <li class="prova">
+                <a href="index2.html"> Registrati </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="flexMain">
+        <section class="flexSection" id="sposta">
+            <figure class="flexFoto">
+                <img id="immagine" alt="immagine">
+            </figure>
+            <article class="flexArticle">
+                <p class="display">Il mio nome è
+                    <strong id="nome"></strong>
+                </p>
+                <p class="display">
+                    <strong>Email:</strong>
+                    <p id="email" class="display"></p>
+                </p>
+                <p class="display">
+                    <strong>Data di nascita :</strong>
+                    <p id="dataN" class="display"></p>
+                </p>
+                <p class="display">
+                    <strong>Indirizzo: </strong>
+                    <p id="indirizzo" class="display"></p>
+                </p>
+                <p class="display">
+                    <strong>Phone :</strong>
+                    <p id="numero" class="display"></p>
+                </p>
+            </article>
+        </section>
+    </div>
+
+    <footer class="fFooter">
+        <p id="togli">Tieniti in contatto</p>
+        <figure>
+            <div class="text-center center-block prova">
+                <i id="social-fb" class="fab fa-facebook-f fa-2x ridimensiona"></i>
+                <i id="social-tw" class="fab fa-twitter fa-2x ridimensiona"></i>
+                <i id="social-tw" class="fab fa-google-plus fa-2x ridimensiona"></i>
+                <i id="social-em" class="fa fa-envelope-square fa-2x ridimensiona"></i>
+            </div>
+        </figure>
+    </footer>
+    <script src="../javascript/generatorePersona.js"></script>
+    <script src="../javascript/index.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.flexMain{
+    display: flex;
+    flex-grow: 3;
+    justify-content: center;
+}
+.flexSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #b2c5d4b5;
+    max-width: 70%;
+    border-radius: 10px 10px 10px 10px;
+    margin: 20px;
+}
+.flexFoto{
+    flex-grow: 1;
+}
+.flexArticle{
+    flex-grow: 4;
+}
+.display{
+    margin: 0px;
+    text-align: center;
+}
+img{
+    margin: auto;
+    border-radius: 50%;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}

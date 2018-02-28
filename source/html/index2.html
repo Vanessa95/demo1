@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
-        <header>
-                <section>
-                    <p id="saluto">
-                        Benvenuto!
-                    </p>
-                </section>
-            </header> 
-                <nav>
-                    <ul>
-                        <li> <a href="index.html">Home</a></li>
-                        <li>Gallery</li>
-                        <li>Registrati</li>
-                    </ul>
-                </nav>
-                <div class="clear"></div>
+    <header class="fHeader">
+        <h3 class="benvenuto" id="saluto">
+            Benvenuto!
+        </h3>        
+    </header>
+    <nav class="fNav"> 
+        <ul>
+            <li class="prova"> 
+                <a href="index.html"> Home</a>
+            </li>
+            <li class="prova">Gallery</li>
+            <li class="prova">Registrati</li>
+        </ul>
+    </nav>
             <section>
-                <p class=" center carattere">Inserisci i tuoi dati</p>
+                <h1 class=" center carattere">Inserisci i tuoi dati</h1>
             </section>
             <section id="sposta">
                 <form action="" method="POST"> 
@@ -35,10 +34,12 @@
                     E-mail<br>
                     <input type="email" name="email" id=""  required><br>
                     Sesso<br>
+                <div class="laterale">
                     Maschio
                     <input type="radio" name="maschio" id="sesso">
                     Femmina
                     <input type="radio" name="maschio" id="sesso"><br><br>
+                </div>
                     Password<br>
                     <input type="password" name="password" id="" placeholder="Password" required><br>
                     Conferma Password<br>
@@ -49,16 +50,17 @@
                 
             </section>
          
-         <footer>
+            <footer class="fFooter">
                 <p id="togli">Tieniti in contatto</p>
                 <figure>
-                    <img  class="dimensioni" src="http://www.playforce.co.uk/sites/1/layoutimages/newfacebook.png" alt="Facebook">
-                    <img  class="dimensioni" src="http://www.grandde.fr/uploads/media/files/logos/communication-/220px-twitter_bird_svg.png" alt="twitter">
-                    <img class="dimensioni"  src="http://www.triplica.it/wp-content/uploads/2018/01/LogoInstagram.png" alt="istagram">
-                     <img  class="dimensioni" src="https://estateandelderlawservices.com/wp-content/uploads/2017/05/linkedin-logo-512x512.png" alt="">
-                     <img  class="dimensioni" src="http://pluspng.com/img-png/googleplus-hd-png-google-plus-logo-png-transparent-background-8-281.png" alt="">
-                 </figure>
+                    <div class="text-center center-block prova">
+                        <i id="social-fb" class="fab fa-facebook-f fa-2x ridimensiona"></i>
+                        <i id="social-tw" class="fab fa-twitter fa-2x ridimensiona"></i>
+                        <i id="social-tw" class="fab fa-google-plus fa-2x ridimensiona"></i>
+                        <i id="social-em" class="fa fa-envelope-square fa-2x ridimensiona"></i>
+                    </div>
+                </figure>
             </footer>
-    
+            <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </body>
 </html>

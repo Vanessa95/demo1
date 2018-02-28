@@ -1,0 +1,149 @@
+html{
+    background-color: white;
+    font-size: 20px;
+}
+#saluto{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color:#E5F9FF;
+    margin: 0px; 
+} 
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.fHeader{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+.benvenuto{
+    flex-grow: 1;
+}
+.fFooter{
+    background-color: #E5F9FF;
+    flex-grow: 1;
+}
+.fNav{
+    display: flex;
+    background-color: #C0E1FF;
+    flex-grow: 1;
+    justify-content: center;
+}
+.flexMain{
+    display: flex;
+    flex-grow: 3;
+    justify-content: center;
+}
+.flexSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #b2c5d4b5;
+    max-width: 70%;
+    border-radius: 10px 10px 10px 10px;
+    margin: 20px;
+}
+.flexFoto{
+    flex-grow: 1;
+}
+.flexArticle{
+    flex-grow: 4;
+}
+li{
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    justify-content:space-around;
+}
+ul{
+    justify-content:space-around;
+    padding: 0px;
+    display: flex;
+}
+menu{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    margin: auto;
+    border-radius: 50%;
+}
+input{
+    margin: 6px 0px 6px 0px;
+    padding: 10px;
+    width: 60%;
+    border: 1px solid black;
+}
+input[type="submit"]{
+    background-color:#00C200;
+    width: 50%;
+    font-size: 18px;
+}
+input[type="radio"]{
+    margin: 7px 20px 0px 20px;
+}
+.laterale{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#togli{
+    margin-bottom: 0px;
+    font-size: 30px;
+    text-align: center;
+}
+figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.prova{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.carattere{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 10px 10px 30px;
+}
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+#colore{
+    color:white;
+    background-color: black;
+}
+#sposta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+article{
+    display: flex;
+    flex-direction: column;
+}
+.display{
+    margin: 0px;
+    text-align: center;
+}
+.ridimensiona{
+    margin: 50px; 
+    }
+.center{
+    text-align: center;
+}
